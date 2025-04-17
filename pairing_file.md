@@ -67,5 +67,5 @@
 1. In the **Files app**, long-press your zipped pairing file and select **Uncompress**.
 2. Launch the **StikDebug** app.
    - If the app doesn't appear, restart your device.
-3. When prompted, import the **unzipped pairing file**.
-4. StikDebug will now be **paired** with your computer.
+3. Upon launching the app, tap **Import Pairing File**, then navigate to and select your **unzipped pairing file**.
+4. StikDebug is now ready for use.
