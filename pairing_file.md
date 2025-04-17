@@ -30,7 +30,7 @@ Downloads for Jitterbug Pair can be found [here.](https://github.com/osy/Jitterb
 ### On your iOS device
 
 1. In the **Files app**, long-press your zipped pairing file and select **Uncompress**.
-2. Launch the **StikJIT or StikDebug** app.
+2. Launch the **StikDebug** app.
     - If the app doesn’t appear, restart your device.
 3. When prompted, import the **unzipped pairing file**.
-4. StikJIT or StikDebug will now be **paired** with your computer.
+4. StikDebug will now be **paired** with your computer.
