@@ -9,8 +9,8 @@
 
 ### For Windows
 
-1. **Extract** `Jitterbugpair-win64.zip`.
-2. **Set a passcode** for your device if you haven't already. Unlock your device, connect it to your computer via cable. If a prompt appears: tap "Trust."
+1. **Extract** `jitterbugpair-win64.zip`.
+2. **Set a passcode** for your device if you haven't already. Unlock your device and connect it to your computer via cable. When a prompt appears, tap "Trust."
 3. Open your device to the homescreen.
 4. In File Explorer, locate `jitterbugpair.exe` and run it by double-clicking or right-clicking and selecting "Open".
 5. JitterbugPair will generate a **pairing file** in the same folder. This file will have the extension `.mobiledevicepairing`.
@@ -29,13 +29,12 @@
 7. If you get "macOS cannot verify that this app is free from malware":
    - Go to System Settings > Privacy & Security
    - Scroll down to the message about the app
-   - Click "Open Anyway"
-   - Try running the program again
-8. JitterBugPair will generate a **pairing file** with the extension `.mobiledevicepairing`.
+   - Click "Open Anyway," if the program doesn't run automatically, try manually running it again
+8. JitterbugPair will generate a **pairing file** with the extension `.mobiledevicepairing` to your user's home folder.
 9. If you can't find the pairing file:
    - Copy the name of the pairing file generated
    - Paste it into Finder
-   - If you ran the program more than once all pairing files for your device should appear since they share the same name
+   - If you ran the program more than once, all pairing files for your device should appear since they share the same name
 10. **Transfer the pairing file** to your iOS device using AirDrop, iCloud/One/Google Drive, email, or any other method. For best results, compress the file into a .zip folder first.
 
 ---
@@ -64,7 +63,7 @@
 
 ### On your iOS device
 
-1. In the **Files app**, long-press your zipped pairing file and select **Uncompress**.
+1. In the **Files app**, locate your newly-generated pairing file. (If zipped, long-press your zipped pairing file and select **Uncompress**.)
 2. Launch the **StikDebug** app.
    - If the app doesn't appear, restart your device.
 3. Upon launching the app, tap **Import Pairing File**, then navigate to and select your **unzipped pairing file**.
