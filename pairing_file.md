@@ -1,9 +1,9 @@
 ## Pairing Instructions
 
 ### Downloads
-- **Windows**: [Jitterbugpair-win64.zip](https://github.com/osy/Jitterbug/releases/download/v1.3.1/jitterbugpair-win64.zip)
-- **macOS**: [Jitterbugpair-macos.zip](https://github.com/osy/Jitterbug/releases/download/v1.3.1/jitterbugpair-macos.zip)
-- **Linux**: [Jitterbugpair-linux.zip](https://github.com/osy/Jitterbug/releases/download/v1.3.1/jitterbugpair-linux.zip)
+- **Windows**: [jitterbugpair-win64.zip](https://github.com/osy/Jitterbug/releases/download/v1.3.1/jitterbugpair-win64.zip)
+- **macOS**: [jitterbugpair-macos.zip](https://github.com/osy/Jitterbug/releases/download/v1.3.1/jitterbugpair-macos.zip)
+- **Linux**: [jitterbugpair-linux.zip](https://github.com/osy/Jitterbug/releases/download/v1.3.1/jitterbugpair-linux.zip)
 
 ---
 
@@ -41,7 +41,7 @@
 
 ### For Linux
 
-1. **Extract** `Jitterbugpair-linux.zip`.
+1. **Extract** `jitterbugpair-linux.zip`.
 2. Open a terminal in the extracted directory.
 3. Make the program executable:
    ```bash
@@ -53,7 +53,7 @@
    ```bash
    ./jitterbugpair
    ```
-7. JitterBugPair will generate a **pairing file** with the extension `.mobiledevicepairing`.
+7. JitterbugPair will generate a **pairing file** with the extension `.mobiledevicepairing`.
 8. **Transfer the pairing file** to your iOS device using your preferred method. For best results, compress the file into a .zip folder first.
 
 > [!TIP]
