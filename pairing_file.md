@@ -21,7 +21,7 @@
 ### For macOS
 
 1. **Extract** `Jitterbugpair-macos.zip`.
-2. **Set a passcode** for your device if you haven't already. Unlock your device, connect it to your computer via cable. If a prompt appears: tap "Trust."
+2. **Set a passcode** for your device if you haven't already. Unlock your device and connect it to your computer via cable. When a prompt appears: tap "Trust."
 3. Open your device to the homescreen.
 4. Find the extracted `jitterbugpair` file (it should have a black and green icon).
 5. Open Terminal (in Launchpad, it's in the "Utilities" folder).
@@ -47,7 +47,7 @@
    ```bash
    chmod +x ./jitterbugpair
    ```
-4. **Set a passcode** for your device if you haven't already. Unlock your device, connect it to your computer via cable. If a prompt appears: tap "Trust."
+4. **Set a passcode** for your device if you haven't already. Unlock your device and connect it to your computer via cable. When a prompt appears: tap "Trust."
 5. Open your device to the homescreen.
 6. Execute the program:
    ```bash
