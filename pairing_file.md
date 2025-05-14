@@ -2,7 +2,7 @@
 
 ### Downloads
 - **Windows**: [jitterbugpair-win64.zip](https://github.com/osy/Jitterbug/releases/download/v1.3.1/jitterbugpair-win64.zip)
-- **macOS**: [jitterbugpair-macos.zip](https://github.com/osy/Jitterbug/releases/download/v1.3.1/jitterbugpair-macos.zip)
+- **macOS**: [jitterbugpair](https://github.com/SideStore/SideStore-Docs/releases/download/need-a-place-to-put-jittterbug/jitterbugpair)
 - **Linux**: [jitterbugpair-linux.zip](https://github.com/osy/Jitterbug/releases/download/v1.3.1/jitterbugpair-linux.zip)
 
 ---
@@ -20,7 +20,7 @@
 
 ### For macOS
 
-1. **Extract** `Jitterbugpair-macos.zip`.
+1. **Extract** `Jitterbugpair-macos.zip` (if applicable).
 2. **Set a passcode** for your device if you haven't already. Unlock your device and connect it to your computer via cable. When a prompt appears: tap "Trust."
 3. Open your device to the homescreen.
 4. Find the extracted `jitterbugpair` file (it should have a black and green icon).
