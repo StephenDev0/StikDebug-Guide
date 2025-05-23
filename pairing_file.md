@@ -46,4 +46,4 @@ These instructions expect that you are familiar with the linux commandline.
    ```
 7. The first time you execute the tool, you will get a prompt for your passcode on your secondary device. Type it in, then keep the screen on and unlocked and run the tool again. Type it in, then keep the screen on and unlocked and execute the tool again.
 8. JitterbugPair will generate a **pairing file** with the extension `.mobiledevicepairing`.
-9. Compress the file into a .zip folder. Then, **transfer the pairing file** to your iOS device using email, cloud storage, or another method you prefer.
+9. Compress the file into a .zip folder. Then, **transfer the pairing file** to your iOS device using email, cloud storage, or another method you prefer. On your iOS/iPadOS device's Files app, long press on the file, then select "Uncompress". Inside StikDebug, select "Choose Pairing File", then select your unzipped pairing file.
