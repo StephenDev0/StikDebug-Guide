@@ -14,7 +14,7 @@ iDevicePair allows us to create a pairing file for programs like StikDebug to ta
 2. Download `iDevicePair--windows-x86_64.exe` (move it somewhere you won't lose it).
 3. Connect your secondary device to your computer via cable. If a prompt appears, tap "trust" and type in your passcode.
 4. Unlock your device, open iDevicePair, and select your device in the drop-down menu.
-5. Ensure your device is unlocked and opened to the home screen, then select "generate". When a prompt appears on your device, tap "trust". Your pairing file should appear.
+5. Ensure your device is unlocked and opened to the home screen, then select "generate" (If you are using an app such as SideStore which also utilizes a pairing file, select "load" instead). When a prompt appears on your device, tap "trust". Your pairing file should appear.
 6. Ensure your device is still open to the home screen, then scroll down to the StikDebug section and select "install". The word "success" should appear in green.
 
 ### macOS
@@ -22,7 +22,7 @@ iDevicePair allows us to create a pairing file for programs like StikDebug to ta
 1. Download `iDevicePair--macos-universal.dmg`. Open the file and drag "iDevicePair" to your Applications folder.
 3. Connect your secondary device to your computer via cable. If a prompt appears, tap "trust" and type in your passcode.
 4. Unlock your device, open iDevicePair, and select your device in the drop-down menu.
-5. Ensure your device is unlocked and opened to the home screen, then select "generate". When a prompt appears on your device, tap "trust". Your pairing file should appear.
+5. Ensure your device is unlocked and opened to the home screen, then select "generate" (If you are using an app such as SideStore which also utilizes a pairing file, select "load" instead). When a prompt appears on your device, tap "trust". Your pairing file should appear.
 6. Ensure your device is still open to the home screen, then scroll down to the StikDebug section and select "install". The word "success" should appear in green.
 
 ### Linux
