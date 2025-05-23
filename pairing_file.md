@@ -28,7 +28,7 @@ iDevicePair allows us to create a pairing file for programs like StikDebug to ta
 ### Linux
 
 > [!TIP]
-> The iDevicePair instructions for Linux are a work-in-progress. For now, instructions to create a pairing file using JitterbugPair for Linux are below!
+> The iDevicePair instructions for Linux are a work-in-progress, though iDevicePair is pretty intuitive if you want to give it a try instead. For now, instructions to create a pairing file using JitterbugPair for Linux are below!
 
 These instructions expect that you are familiar with the linux commandline.
 
