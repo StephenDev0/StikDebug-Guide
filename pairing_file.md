@@ -2,14 +2,11 @@
 
 ### Downloads
 - **Windows**: [iDevicePair--windows-x86_64.exe](https://github.com/jkcoxson/idevice_pair/releases/latest/download/iDevicePair--windows-x86_64.exe)
-- **macOS**: [iDevicePair--macos-universal.dmg](github.com/jkcoxson/idevice_pair/releases/latest/download/iDevicePair--macos-universal.dmg)
-- **Linux**: [jitterbugpair-linux.zip](https://github.com/osy/Jitterbug/releases/download/v1.3.1/jitterbugpair-linux.zip)
-
+- **macOS**: [iDevicePair--macos-universal.dmg](https://github.com/jkcoxson/idevice_pair/releases/latest/download/iDevicePair--macos-universal.dmg)
+- **Linux**: (x86_64: [iDevicePair--linux-x86_64.AppImage](https://github.com/jkcoxson/idevice_pair/releases/latest/download/iDevicePair--linux-x86_64.AppImage), aarch64: [iDevicePair--linux-aarch64.AppImage](https://github.com/jkcoxson/idevice_pair/releases/latest/download/iDevicePair--linux-aarch64.AppImage))
 ---
 
-iDevicePair allows us to create a pairing file for programs like SideStore to talk to your device remotely. This is required to use SideStore, or it will not function.
-
-Download iDevicePair for Linux ([x86_64](https://github.com/jkcoxson/idevice_pair/releases/latest/download/iDevicePair--linux-x86_64.AppImage) or [aarch64](https://github.com/jkcoxson/idevice_pair/releases/latest/download/iDevicePair--linux-aarch64.AppImage)).
+iDevicePair allows us to create a pairing file for programs like StikDebug to talk to your device remotely. This is required to use StikDebug, otherwise it would not function..
 
 ### Windows
 
@@ -18,7 +15,7 @@ Download iDevicePair for Linux ([x86_64](https://github.com/jkcoxson/idevice_pai
 3. Connect your secondary device to your computer via cable. If a prompt appears, tap "trust" and type in your passcode.
 4. Unlock your device, open iDevicePair, and select your device in the drop-down menu.
 5. Ensure your device is unlocked and opened to the home screen, then select "generate". When a prompt appears on your device, tap "trust". Your pairing file should appear.
-6. Ensure your device is still open to the home screen, then scroll down to the SideStore section and select "install". The word "success" should appear in green.
+6. Ensure your device is still open to the home screen, then scroll down to the StikDebug section and select "install". The word "success" should appear in green.
 
 ### macOS
 
@@ -26,7 +23,7 @@ Download iDevicePair for Linux ([x86_64](https://github.com/jkcoxson/idevice_pai
 3. Connect your secondary device to your computer via cable. If a prompt appears, tap "trust" and type in your passcode.
 4. Unlock your device, open iDevicePair, and select your device in the drop-down menu.
 5. Ensure your device is unlocked and opened to the home screen, then select "generate". When a prompt appears on your device, tap "trust". Your pairing file should appear.
-6. Ensure your device is still open to the home screen, then scroll down to the SideStore section and select "install". The word "success" should appear in green.
+6. Ensure your device is still open to the home screen, then scroll down to the StikDebug section and select "install". The word "success" should appear in green.
 
 ### Linux
 
