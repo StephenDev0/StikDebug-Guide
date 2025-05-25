@@ -1,71 +1,50 @@
 ## Pairing Instructions
 
 ### Downloads
-- **Windows**: [Jitterbugpair-win64.zip](https://github.com/osy/Jitterbug/releases/download/v1.3.1/jitterbugpair-win64.zip)
-- **macOS**: [Jitterbugpair-macos.zip](https://github.com/osy/Jitterbug/releases/download/v1.3.1/jitterbugpair-macos.zip)
-- **Linux**: [Jitterbugpair-linux.zip](https://github.com/osy/Jitterbug/releases/download/v1.3.1/jitterbugpair-linux.zip)
+- **Windows**: [iDevicePair--windows-x86_64.exe](https://github.com/jkcoxson/idevice_pair/releases/latest/download/iDevicePair--windows-x86_64.exe)
+- **macOS**: [iDevicePair--macos-universal.dmg](https://github.com/jkcoxson/idevice_pair/releases/latest/download/iDevicePair--macos-universal.dmg)
+- **Linux**: (x86_64: [iDevicePair--linux-x86_64.AppImage](https://github.com/jkcoxson/idevice_pair/releases/latest/download/iDevicePair--linux-x86_64.AppImage) or AArch64: [iDevicePair--linux-aarch64.AppImage](https://github.com/jkcoxson/idevice_pair/releases/latest/download/iDevicePair--linux-aarch64.AppImage))
 
 ---
 
-### For Windows
+First, make sure Developer Mode is enabled on your iDevice, then follow the instructions below.
 
-1. **Extract** `Jitterbugpair-win64.zip`.
-2. **Set a passcode** for your device if you haven't already. Unlock your device, connect it to your computer via cable. If a prompt appears: tap "Trust."
-3. Open your device to the homescreen.
-4. In File Explorer, locate `jitterbugpair.exe` and run it by double-clicking or right-clicking and selecting "Open".
-5. JitterbugPair will generate a **pairing file** in the same folder. This file will have the extension `.mobiledevicepairing`.
-6. **Transfer the pairing file** to your iOS device using One/iCloud/Google Drive, email, or any other method. For best results, compress the file into a .zip folder first.
+idevice_pair allows us to create a pairing file for programs like StikDebug to talk to your device remotely. This is required to use StikDebug, otherwise it will not function.
 
 ---
 
-### For macOS
+### Windows (64-bit)
 
-1. **Extract** `Jitterbugpair-macos.zip`.
-2. **Set a passcode** for your device if you haven't already. Unlock your device, connect it to your computer via cable. If a prompt appears: tap "Trust."
-3. Open your device to the homescreen.
-4. Find the extracted `jitterbugpair` file (it should have a black and green icon).
-5. Open Terminal (in Launchpad, it's in the "Utilities" folder).
-6. Drag the `jitterbugpair` file into Terminal and press "Return" or Enter.
-7. If you get "macOS cannot verify that this app is free from malware":
-   - Go to System Settings > Privacy & Security
-   - Scroll down to the message about the app
-   - Click "Open Anyway"
-   - Try running the program again
-8. JitterBugPair will generate a **pairing file** with the extension `.mobiledevicepairing`.
-9. If you can't find the pairing file:
-   - Copy the name of the pairing file generated
-   - Paste it into Finder
-   - If you ran the program more than once all pairing files for your device should appear since they share the same name
-10. **Transfer the pairing file** to your iOS device using AirDrop, iCloud/One/Google Drive, email, or any other method. For best results, compress the file into a .zip folder first.
+1. Install [iTunes](https://apple.com/itunes/download/win64) from Apple's website.
+2. Download `iDevicePair--windows-x86_64.exe` (move it somewhere you won't lose it).
+3. Connect your secondary device to your computer via cable. If a prompt appears, tap "trust" and type in your passcode.
+4. Unlock your device, then, in File Explorer, open `idevice pair` and select your device in the drop-down menu.
+5. Ensure your device is unlocked and opened to the home screen, then select "generate" (If also using an app such as SideStore or Feather which utilizes a pairing file as well, select "load" instead). When a prompt appears on your device, tap "trust". Your pairing file should appear.
+6. Ensure your device is still open to the home screen, then scroll down to the StikDebug section and select "install". The word "success" should appear in green.
 
 ---
 
-### For Linux
+### macOS
 
-1. **Extract** `Jitterbugpair-linux.zip`.
-2. Open a terminal in the extracted directory.
-3. Make the program executable:
-   ```bash
-   chmod +x ./jitterbugpair
-   ```
-4. **Set a passcode** for your device if you haven't already. Unlock your device, connect it to your computer via cable. If a prompt appears: tap "Trust."
-5. Open your device to the homescreen.
-6. Execute the program:
-   ```bash
-   ./jitterbugpair
-   ```
-7. JitterBugPair will generate a **pairing file** with the extension `.mobiledevicepairing`.
-8. **Transfer the pairing file** to your iOS device using your preferred method. For best results, compress the file into a .zip folder first.
-
-> [!TIP]
-> When using cloud storage, the file extension might change (usually to .txt). It is always recommended to zip your pairing file before transferring it. StikDebug only accepts `.mobiledevicepairing` or `.plist` files.
+1. Download `iDevicePair--macos-universal.dmg`. Open the file and drag `idevice pair` to `Applications`.
+2. Connect your secondary device to your computer via cable. If a prompt appears, tap "trust" and type in your passcode.
+3. Unlock your device, then open idevice pair and select your device in the drop-down menu.
+4. Ensure your device is unlocked and opened to the home screen, then select "generate" (If also using an app such as SideStore or Feather which utilizes a pairing file as well, select "load" instead). When a prompt appears on your device, tap "trust". Your pairing file should appear.
+5. Ensure your device is still open to the home screen, then scroll down to the StikDebug section and select "install". The word "success" should appear in green.
 
 ---
 
-### On your iOS device
+### Linux
 
-1. In the **Files app**, long-press your zipped pairing file and select **Uncompress**.
-2. Launch the **StikDebug** app.
-   - If the app doesn't appear, restart your device.
-3. Upon launching the app, tap **Import Pairing File**, then navigate to and select your **unzipped pairing file**.
-4. StikDebug is now ready for use.
+These instructions expect that you are familiar with the linux commandline.
+
+1. In the linux commandline, run the following code:
+```
+sudo apt update
+sudo apt install usbmuxd
+```
+2. Download the version of idevice pair that corresponds to your PC's architecture and make it executable.
+3. Connect your secondary device to your computer via cable. If a prompt appears, tap "trust" and type in your passcode.
+4. Unlock your device, then execute idevice pair and select your device in the drop-down menu.
+5. Ensure your device is unlocked and opened to the home screen, then select "generate" (If also using an app such as SideStore or Feather which utilizes a pairing file as well, select "load" instead). When a prompt appears on your device, tap "trust". Your pairing file should appear.
+6. Ensure your device is still open to the home screen, then scroll down to the StikDebug section and select "install". The word "success" should appear in green.
