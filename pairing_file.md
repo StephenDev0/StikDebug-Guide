@@ -11,6 +11,8 @@ First, make sure Developer Mode is enabled on your iDevice, then follow the inst
 
 idevice_pair allows us to create a pairing file for programs like StikDebug to talk to your device remotely. This is required to use StikDebug, otherwise it will not function.
 
+---
+
 ### Windows (64-bit)
 
 1. Install [iTunes](https://apple.com/itunes/download/win64) from Apple's website.
