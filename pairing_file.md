@@ -7,7 +7,7 @@
 
 ---
 
-First, make sure Developer Mode is enabled on your iDevice, then follow the instructions below.
+First, make sure Developer Mode is enabled on your iOS/iPadOS device (found in Settings -> Privacy & Security after sideloading an app), then follow the instructions below.
 
 idevice_pair allows us to create a pairing file for programs like StikDebug to talk to your device remotely. This is required to use StikDebug, otherwise it will not function.
 
