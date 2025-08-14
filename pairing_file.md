@@ -21,7 +21,7 @@ First, set a passcode on your device, sideload an app with the get-task-allow en
 2. Download `iDevicePair--windows-x86_64.exe` (move it somewhere you won't lose it).
 3. Connect your secondary device to your computer via cable. If a prompt appears, tap `trust` and type in your passcode.
 4. Unlock your device, then, in File Explorer, open `idevice pair` and select your device in the drop-down menu.
-5. Ensure your device is unlocked and opened to the home screen, then select `generate` (If already using an app such as SideStore which also utilizes a pairing file, select `load` instead). When a prompt appears on your device, tap `trust`. Your pairing file should appear.
+5. Ensure your device is unlocked and opened to the home screen, then select `load`. Your pairing file should appear.
 6. Ensure your device is still open to the home screen, then scroll down to the StikDebug section and select `install`. The word "success" should appear in green.
 
 ---
@@ -31,7 +31,7 @@ First, set a passcode on your device, sideload an app with the get-task-allow en
 1. Download `iDevicePair--macos-universal.dmg`. Open the image and drag `idevice pair` to `Applications`.
 2. Connect your secondary device to your computer via cable. If a prompt appears, tap `trust` and type in your passcode.
 3. Unlock your device, then open `idevice pair` and select your device in the drop-down menu.
-4. Ensure your device is unlocked and opened to the home screen, then select `generate` (If already using an app such as SideStore which also utilizes a pairing file, select `load` instead). When a prompt appears on your device, tap `trust`. Your pairing file should appear.
+4. Ensure your device is unlocked and opened to the home screen, then select `load`. Your pairing file should appear.
 5. Ensure your device is still open to the home screen, then scroll down to the StikDebug section and select `install`. The word "success" should appear in green.
 
 ---
