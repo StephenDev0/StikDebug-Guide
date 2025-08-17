@@ -1,8 +1,5 @@
 ## Pairing Instructions
 
-
----
-
 idevice_pair allows us to create a pairing file for programs like StikDebug to talk to your device remotely. This pairing file is device-specific and required to use StikDebug, otherwise StikDebug will not function correctly.
 
 ---
