@@ -3,11 +3,11 @@
 
 ---
 
-idevice_pair allows us to create a pairing file for programs like StikDebug to talk to your device remotely. This is required to use StikDebug, otherwise it will not function.
+idevice_pair allows us to create a pairing file for programs like StikDebug to talk to your device remotely. This pairing file is device-specific and required to use StikDebug, otherwise StikDebug will not function correctly.
 
 ---
 
-First, set a passcode on your device, sideload an app with the get-task-allow entitlement (this can be done with [SideStore](https://sidestore.io/)), and enable Developer Mode on your iOS/iPadOS device (found in Settings -> Privacy & Security after sideloading an app). Then, follow the instructions below to create and install your pairing file.
+First, set a passcode on your device, sideload an app with the get-task-allow entitlement (this can be done with the in-app signer, or for free with [SideStore](https://sidestore.io/)), and enable Developer Mode on your iOS/iPadOS device (found in Settings -> Privacy & Security after sideloading an app). Then, follow the instructions below to create and install your pairing file.
 
 ---
 
@@ -34,5 +34,5 @@ First, set a passcode on your device, sideload an app with the get-task-allow en
 
 1. Connect your secondary device to your computer via cable. If a prompt appears, select `trust` and type in your passcode.
 2. Unlock your device, then open `idevice pair` and select your device in the drop-down menu.
-3. Ensure your device is unlocked and opened to the home screen, then select `load`. If a prompt appears on your device, tap `trust`. Your pairing file should appear.
+3. Ensure your device is unlocked and opened to the home screen, then select `load`. If a prompt appears on your device, tap `trust` and type in your passcode. Your pairing file should appear.
 4. Ensure your device is still open to the home screen, then scroll down and select `install` underneath "StikDebug". `Success` should appear in green.
