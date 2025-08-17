@@ -1,4 +1,4 @@
-## Pairing Instructions
+## Pairing Guide
 
 idevice_pair allows us to create a pairing file for programs like StikDebug to talk to your device remotely. This pairing file is device-specific and required to use StikDebug, otherwise StikDebug will not function correctly.
 
@@ -8,7 +8,7 @@ First, set a passcode on your device, sideload an app with the get-task-allow en
 
 ---
 
-## Installation instructions
+## Installation Instructions
 
 ### macOS
 
@@ -27,7 +27,7 @@ First, set a passcode on your device, sideload an app with the get-task-allow en
 
 ---
 
-## Pairing instructions
+## Pairing Instructions
 
 1. Connect your secondary device to your computer via cable. If a prompt appears, select `trust` and type in your passcode.
 2. Unlock your device, then open `idevice pair` and select your device in the drop-down menu.
