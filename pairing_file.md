@@ -12,18 +12,18 @@ First, set a passcode on your device, sideload an app with the get-task-allow en
 
 ### macOS
 
-1. Download [idevice pair for macOS](https://github.com/jkcoxson/idevice_pair/releases/latest/download/iDevicePair--macos-universal.dmg).
+1. Download [idevice pair for macOS](https://github.com/jkcoxson/idevice_pair/releases/latest/download/idevice_pair--macos-universal.dmg).
 2. Open the Disk Image and drag `idevice pair` to `Applications`.
 
 ### Windows
 
 1. Ensure iTunes ([64-bit](https://apple.com/itunes/download/win64) or [32-bit](https://apple.com/itunes/download/win32)) is installed from from Apple's website.
-2. Download [idevice pair for Windows](https://github.com/jkcoxson/idevice_pair/releases/latest/download/iDevicePair--windows-x86_64.exe) and move it somewhere you will remember it.
+2. Download [idevice pair for Windows](https://github.com/jkcoxson/idevice_pair/releases/latest/download/idevice_pair--windows-x86_64.exe) and move it somewhere you will remember it.
 
 ### Linux
 
 1. Ensure usbmuxd is installed and up to date on your machine by running `sudo apt install -y usbmuxd` in the Linux terminal.
-2. Download the version of idevice_pair for Linux ([x86_64](https://github.com/jkcoxson/idevice_pair/releases/latest/download/iDevicePair--linux-x86_64.AppImage) or [AArch64](https://github.com/jkcoxson/idevice_pair/releases/latest/download/iDevicePair--linux-aarch64.AppImage)) which corresponds to your PC's architecture. Move it somewhere you will remember it, and make it executable.
+2. Download the version of idevice_pair for Linux ([x86_64](https://github.com/jkcoxson/idevice_pair/releases/latest/download/idevice_pair--linux-x86_64.AppImage) or [AArch64](https://github.com/jkcoxson/idevice_pair/releases/latest/download/idevice_pair--linux-aarch64.AppImage)) which corresponds to your PC's architecture. Move it somewhere you will remember it, and make it executable.
 
 ---
 
