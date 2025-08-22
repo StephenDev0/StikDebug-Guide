@@ -4,7 +4,7 @@ idevice_pair allows us to create a pairing file for programs like StikDebug to t
 
 ---
 
-First, set a passcode on your device, sideload an app with the get-task-allow entitlement (this can be done with the in-app signer, or for free with [SideStore](https://sidestore.io/)), and enable Developer Mode on your iOS/iPadOS device (found in Settings -> Privacy & Security after sideloading an app). Then, follow the instructions below to create and install your pairing file.
+First, set a passcode on your device, sideload an app with the get-task-allow entitlement (this can be done with the in-app signer (coming soon in StikDebug 2), or for free with [SideStore](https://sidestore.io/)), and enable Developer Mode on your iOS/iPadOS device (found in Settings -> Privacy & Security after sideloading an app). Then, follow the instructions below to create and install your pairing file.
 
 ---
 
