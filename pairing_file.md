@@ -1,10 +1,10 @@
 ## Pairing Guide
 
-idevice_pair allows us to create a pairing file for programs like StikDebug to talk to your device remotely. This pairing file is device-specific and required to use StikDebug, otherwise StikDebug will not function correctly.
+idevice_pair allows us to create a pairing file for programs like StikDebug to talk to your device remotely. This pairing file is device-specific and required to use StikDebug, otherwise StikDebug will not function correctly. Caution: this pairing file can and will expire randomly, requiring you to remake it.
 
 ---
 
-First, set a passcode on your device, sideload an app with the get-task-allow entitlement (this can be done with the in-app signer \[coming soon] and a development certificate, or for free with [SideStore](https://sidestore.io/)), and enable Developer Mode on your iOS/iPadOS device (found in Settings -> Privacy & Security after sideloading an app). Then, follow the instructions below to create and install your pairing file.
+First, set a passcode on your device, sideload an app with the `get-task-allow` entitlement (this can be done with the in-app signer \[coming soon] or Feather and a development certificate, or for free utilizing a PC and [SideStore](https://sidestore.io/)), and enable Developer Mode on your iOS/iPadOS device (found at the bottom of Settings ➡️ Privacy & Security). Then, follow the instructions below to create and import your pairing file.
 
 ---
 
@@ -32,4 +32,4 @@ First, set a passcode on your device, sideload an app with the get-task-allow en
 1. Connect your secondary device to your computer via cable. If a prompt appears, select `trust` and type in your passcode.
 2. Unlock your device, then open `idevice_pair` and select your device in the drop-down menu.
 3. Ensure your device is unlocked and opened to the home screen, then select `load`. If a prompt appears on your device, tap `trust` and type in your passcode. Your pairing file should appear.
-4. Ensure your device is still open to the home screen, then scroll down and select `install` underneath "StikDebug". `Success` should appear in green.
+4. Ensure your device is still open to the home screen, then scroll down and select `install` below "StikDebug". `Success` should appear in green.
