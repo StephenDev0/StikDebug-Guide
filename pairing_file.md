@@ -34,7 +34,7 @@ First, set a passcode on your device, sideload an app with the `get-task-allow` 
    - Ensure your device is unlocked and on the home screen
    - Click `Load`
    - If prompted, tap `Trust` and enter your passcode
-4. **Install for your app**:
+4. **Install to StikDebug**:
    - Keep your device unlocked and on the home screen
    - Scroll down and click `Install` under "StikDebug"
    - You should see `Success` appear in green
